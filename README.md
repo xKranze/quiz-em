@@ -1,2 +1,2 @@
 # quiz-em
-Timed quiz
+Can you beat the timer?
