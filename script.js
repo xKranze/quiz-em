@@ -40,7 +40,7 @@ const questions = {
         a4:"4. all of the above",
     }
 };
-
+var getId = document.getElementById
 var timerEl = document.getElementById("timer");
 //var El = document.getElementById("");
 
@@ -167,7 +167,7 @@ function answerQuestion(answer){
         if(answer == 3){
             document.getElementById("result").textContent = "Correct!";
         }else{
-            document.getElementById("result").textContent = "Wrong!";
+            document.getElementById("result").textContent = "Wrong bitch!";
             timer-=10;
             document.getElementById("timer").textContent = "Timer: " + timer;
         }

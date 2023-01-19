@@ -11,6 +11,15 @@ Body{
     width: 20%;
     margin-left: 40%;
     margin-right: 40%;
+    text-align: center;
+    
+    
+}
+
+#initialsText2 {
+    display: flex;
+
+    
 }
 
 button {
@@ -86,7 +95,6 @@ ans{
     color: #FFF;
     background: #948fb1;    
     font: bold 17px/50px Arial;
-    
     text-transform: uppercase;
     border-radius: 25px;   
 }
