@@ -40,7 +40,7 @@ const questions = {
         a4: "4. all of the above",
     }
 };
-
+var getId = document.getElementById
 var timerEl = document.getElementById("timer");
 //var El = document.getElementById("");
 
