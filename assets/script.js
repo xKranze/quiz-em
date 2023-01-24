@@ -95,7 +95,6 @@ function startQuiz() {
     document.getElementById("a3").hidden = false;
     document.getElementById("a4").hidden = false;
     state = 1;
-
     //Start timer 
     startTimer();
 }
@@ -298,14 +297,16 @@ initialsSubmitButton.addEventListener("click", enterInitials);
 goBackButton.addEventListener("click", goBack);
 clearHighScoreButton.addEventListener("click", clearHighScores);
 
-
-//set attributes to pTags to style them
+//set attributes to elementsto style them
 var ansBox = document.getElementsByClassName("buttons");
 var pTags = document.querySelectorAll("p");
+
 console.log(pTags)
 //for loop to target the children in pTags
 for (var i = 0; i < pTags.length; i++) {
     pTags[i].children[0].setAttribute("style", "background-color: #d3cce6;border-radius: 10px;padding: 10px;width: 25%;margin: 5px;font-size:20px;");
 }
 
+//centers the answear boxes for questions.
 ansBox[0].setAttribute("style", "text-align:center;");
+
